@@ -1,0 +1,138 @@
+valgrind: ./: is a directory
+valgrind: ./: is a directory
+valgrind: ./: is a directory
+==14856== Memcheck, a memory error detector
+==14856== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14856== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==14856== Command: ./SDLC/build/Test_Calculator.out
+==14856== 
+==14856== 
+==14856== HEAP SUMMARY:
+==14856==     in use at exit: 0 bytes in 0 blocks
+==14856==   total heap usage: 86 allocs, 86 frees, 3,041 bytes allocated
+==14856== 
+==14856== All heap blocks were freed -- no leaks are possible
+==14856== 
+==14856== For lists of detected and suppressed errors, rerun with: -s
+==14856== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==14897== Memcheck, a memory error detector
+==14897== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14897== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==14897== Command: ./SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out
+==14897== 
+==14897== Conditional jump or move depends on uninitialised value(s)
+==14897==    at 0x10939A: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897== 
+==14897== Use of uninitialised value of size 8
+==14897==    at 0x1093AD: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==14897==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==14897== 
+==14897== 
+==14897== HEAP SUMMARY:
+==14897==     in use at exit: 0 bytes in 0 blocks
+==14897==   total heap usage: 7 allocs, 7 frees, 4,535 bytes allocated
+==14897== 
+==14897== All heap blocks were freed -- no leaks are possible
+==14897== 
+==14897== Use --track-origins=yes to see where uninitialised values come from
+==14897== For lists of detected and suppressed errors, rerun with: -s
+==14897== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==14965== Memcheck, a memory error detector
+==14965== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14965== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==14965== Command: ./Number_operations_and_properties/build/Test_OperationsAndProperties.out
+==14965== 
+==14965== 
+==14965== HEAP SUMMARY:
+==14965==     in use at exit: 0 bytes in 0 blocks
+==14965==   total heap usage: 26 allocs, 26 frees, 1,038 bytes allocated
+==14965== 
+==14965== All heap blocks were freed -- no leaks are possible
+==14965== 
+==14965== For lists of detected and suppressed errors, rerun with: -s
+==14965== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==15922== Memcheck, a memory error detector
+==15922== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15922== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==15922== Command: ./SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out
+==15922== 
+==15922== Conditional jump or move depends on uninitialised value(s)
+==15922==    at 0x10939A: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922== 
+==15922== Use of uninitialised value of size 8
+==15922==    at 0x1093AD: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15922==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_DEV/ElectionSystem/build/Test_ElectionSystem.out)
+==15922== 
+==15922== 
+==15922== HEAP SUMMARY:
+==15922==     in use at exit: 0 bytes in 0 blocks
+==15922==   total heap usage: 7 allocs, 7 frees, 4,535 bytes allocated
+==15922== 
+==15922== All heap blocks were freed -- no leaks are possible
+==15922== 
+==15922== Use --track-origins=yes to see where uninitialised values come from
+==15922== For lists of detected and suppressed errors, rerun with: -s
+==15922== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==15957== Memcheck, a memory error detector
+==15957== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15957== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==15957== Command: ./SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out
+==15957== 
+==15957== Conditional jump or move depends on uninitialised value(s)
+==15957==    at 0x10939A: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957== 
+==15957== Use of uninitialised value of size 8
+==15957==    at 0x1093AD: castVote (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957==    by 0x1096FF: test_sample (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957==    by 0x4860CC6: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x4860EFC: ??? (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x486136D: CU_run_all_tests (in /usr/lib/x86_64-linux-gnu/libcunit.so.1.0.1)
+==15957==    by 0x1096E1: main (in /home/shabana/Desktop/DEVADATH7/microshell/SDLC_Rejith/ElectionSystem/build/Test_ElectionSystem.out)
+==15957== 
+==15957== 
+==15957== HEAP SUMMARY:
+==15957==     in use at exit: 0 bytes in 0 blocks
+==15957==   total heap usage: 7 allocs, 7 frees, 4,535 bytes allocated
+==15957== 
+==15957== All heap blocks were freed -- no leaks are possible
+==15957== 
+==15957== Use --track-origins=yes to see where uninitialised values come from
+==15957== For lists of detected and suppressed errors, rerun with: -s
+==15957== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==16043== Memcheck, a memory error detector
+==16043== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16043== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==16043== Command: ./final/build/Test_Calculator.out
+==16043== 
+==16043== 
+==16043== HEAP SUMMARY:
+==16043==     in use at exit: 0 bytes in 0 blocks
+==16043==   total heap usage: 154 allocs, 154 frees, 5,379 bytes allocated
+==16043== 
+==16043== All heap blocks were freed -- no leaks are possible
+==16043== 
+==16043== For lists of detected and suppressed errors, rerun with: -s
+==16043== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

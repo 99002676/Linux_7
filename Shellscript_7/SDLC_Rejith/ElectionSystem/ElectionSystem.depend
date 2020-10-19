@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1601213725 source:c:\users\ysush\desktop\electionsystem\main.c
+	<stdio.h>
+	"election_system.h"
+
+1601213725 c:\users\ysush\desktop\electionsystem\inc\election_system.h
+
+1601213885 source:c:\users\ysush\desktop\electionsystem\src\election_system.c
+	"election_system.h"
+
